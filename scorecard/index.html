@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Tap and Table Scorecard | Free Restaurant &amp; Bar Concept-Location Fit Check</title>
+<meta name="description" content="Enter a restaurant or bar's name, concept, and location to get an instant scorecard across eleven categories: location, demand, competition, demographics, pricing, digital presence, and more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles.css">
+<link rel="canonical" href="https://tapandtable.com/scorecard/">
+<meta name="theme-color" content="#0c0a07">
+</head>
+<body>
+
+<header>
+  <a class="logo" href="../index.html"><span class="logo-mark">Tap</span> and Table</a>
+  <nav>
+    <a href="../index.html#how-it-works">How It Works</a>
+    <a href="../index.html#faq">FAQ</a>
+    <button type="button" class="btn" data-deepdive-trigger="true">Request Deep-Dive &rarr;</button>
+  </nav>
+</header>
+
+<main>
+
+  <section class="tool-hero">
+    <div class="wrap">
+      <div class="eyebrow">Free Instant Tool</div>
+      <h1>The Tap and Table Scorecard</h1>
+      <p class="lead">A cursory, first-look read on how your concept and location are likely shaping foot traffic, competitive differentiation, guest appeal, and cost exposure &mdash; built from real, observable data and scored on the same 0&ndash;10 scale we use in our full engagements.</p>
+      <p class="lead">It shows you <strong>where</strong> things stand. It intentionally doesn't yet explain <strong>why</strong>, or what to do about it &mdash; see the note at the end of your results for that.</p>
+      <div class="scale-key">
+        <div class="row"><span class="dot" style="background:var(--strong)"></span>8.0&ndash;10.0 Strong</div>
+        <div class="row"><span class="dot" style="background:var(--solid)"></span>6.5&ndash;7.9 Solid</div>
+        <div class="row"><span class="dot" style="background:var(--attention)"></span>5.1&ndash;6.4 Needs Attention</div>
+        <div class="row"><span class="dot" style="background:var(--concern)"></span>5.0 &amp; below Priority Concern</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="intake-panel">
+      <span class="demo-flag">Preview Mode &mdash; Sample Scoring</span>
+      <h2>Run a Scorecard</h2>
+      <p class="intake-sub">Enter the basics below. It takes about a minute.</p>
+      <form id="scorecard-form">
+        <div class="field-row">
+          <label class="field">Restaurant / Bar Name*
+            <input type="text" name="name" required placeholder="e.g. Pour &amp; Play">
+          </label>
+          <label class="field">Concept*
+            <select name="concept" required>
+              <option value="" disabled selected>Choose a concept&hellip;</option>
+              <option value="sports bar">Sports Bar</option>
+              <option value="brewery / taproom">Brewery / Taproom</option>
+              <option value="fine dining">Fine Dining</option>
+              <option value="fast casual">Fast Casual</option>
+              <option value="family dining">Family Dining</option>
+              <option value="wine bar">Wine Bar</option>
+              <option value="nightclub / lounge">Nightclub / Lounge</option>
+              <option value="cafe / coffee">Caf&eacute; / Coffee</option>
+              <option value="other">Other</option>
+            </select>
+          </label>
+        </div>
+        <label class="field full">Location*
+          <input type="text" name="location" required placeholder="Street address, or City, State">
+        </label>
+        <label class="field full">Concept Details <span style="text-transform:none;font-weight:400;">(optional)</span>
+          <input type="text" name="conceptOther" placeholder="e.g. upscale sports bar with a local craft beer focus and live games/trivia">
+        </label>
+        <div class="intake-actions">
+          <button type="submit" class="btn">Get My Scorecard &rarr;</button>
+        </div>
+        <p class="intake-note">This preview runs on sample scoring logic while Tap and Table's live data connections are being finalized. Once connected, results reflect the same real, publicly observable data described above. See our Deep-Dive Analysis for a fully researched, human-reviewed assessment today.</p>
+      </form>
+    </div>
+  </section>
+
+  <section id="results" hidden></section>
+
+</main>
+
+<footer>
+  <a class="logo" href="../index.html"><span class="logo-mark">Tap</span> and Table</a>
+  <div class="footer-contact">
+    <a href="mailto:hello@tapandtable.com">hello@tapandtable.com</a>
+  </div>
+  <nav class="footer-nav">
+    <a href="../index.html#services">Services</a>
+    <a href="../index.html#faq">FAQ</a>
+    <button type="button" data-deepdive-trigger="true">Request Deep-Dive</button>
+  </nav>
+  <span class="fine-print">&copy; 2026 Tap and Table, LLC. Hospitality &amp; Venue Consulting.</span>
+</footer>
+
+<script src="../scorecard-data.js"></script>
+<script src="../lead-form.js"></script>
+<script src="../scorecard.js"></script>
+</body>
+</html>
