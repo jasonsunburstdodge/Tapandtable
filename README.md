@@ -113,9 +113,9 @@ or a CRM.
 
 ### 6. Business details to fill in before launch
 
-The site intentionally does not invent contact details that weren't
-provided: it uses a placeholder `hello@tapandtable.com` email and no phone
-number or street address. Replace these with your real contact information,
-and confirm the $1,200 Deep-Dive price and 1-hour review are still accurate
+Contact info is now real: `Rob@TapAndTable.com` and `(469) 442-9291` appear
+in both pages' header/footer and in the Deep-Dive lead modal. Still no
+street address on the site — add one if you want it displayed. Also
+confirm the $1,200 Deep-Dive price and 1-hour review are still accurate
 before this goes live, since both are quoted verbatim from the source
 document.

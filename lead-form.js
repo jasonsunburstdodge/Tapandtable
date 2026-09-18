@@ -35,6 +35,7 @@
       <button type="button" class="dd-modal-close" aria-label="Close">&times;</button>
       <h2 id="dd-modal-title" class="dd-modal-title">Request Your Deep-Dive Analysis</h2>
       <p class="dd-modal-sub">Tell us where to send it. A member of the Tap and Table team will follow up to schedule your findings review.</p>
+      <a class="dd-call-now" href="tel:+14694429291">Prefer to talk now? Call (469) 442-9291 &rarr;</a>
       <form class="dd-modal-form">
         ${fieldsHTML()}
         <div class="dd-actions">

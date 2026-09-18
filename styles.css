@@ -456,6 +456,7 @@ footer .fine-print { width: 100%; font-size: 0.78rem; color: var(--muted); margi
 }
 .dd-modal-title { font-size: 1.3rem; margin-bottom: 6px; }
 .dd-modal-sub { font-size: 0.94rem; margin-bottom: 20px; }
+.dd-call-now { display: block; font-size: 0.9rem; font-weight: 600; margin-bottom: 20px; }
 .dd-field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
 .dd-field { display: flex; flex-direction: column; gap: 5px; }
 .dd-field.full { grid-column: 1 / -1; }
